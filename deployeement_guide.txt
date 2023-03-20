@@ -1,0 +1,24 @@
+/////////////////// Blog to Refer
+// for building react with springboot
+https://medium.com/@itzgeoff/including-react-in-your-spring-boot-maven-build-ae3b8f8826e
+
+// building docker image for frontend and backend.
+https://luizcostatech.medium.com/how-to-dockerize-spring-boot-react-apps-1a4aea1acc44
+
+/////////////////////
+// Step - 1
+// Build front end react application
+npm run build
+// It generate  build folder with all the details.
+
+// Step - 2
+// Build Backend application with mvn
+mvn build or mvn compile
+// It generate target folder with all the classes.
+
+// Step - 3
+// move frontend build forder to backend target/classes/static folders
+
+// Step - 4
+Run springboot appliaction.
+

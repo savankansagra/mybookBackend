@@ -15,7 +15,6 @@ import com.mybook.services.ExpertService;
 
 @RestController
 @RequestMapping("/expert")
-@CrossOrigin
 public class ExpertController {
 
 	@Autowired
